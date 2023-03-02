@@ -5,9 +5,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
   <link rel="stylesheet" href="./assets/style/index.css" media="all">
   <script src="./assets/script/index.js" defer></script>
-  <title>Project</title>
 </head>
 
 <body>
@@ -23,21 +28,86 @@
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
-      <div class="social-icons">
-        <a href="#"><i class="fa fa-GtHub"></i></a>
-        <a href="#"><i class="fa fa-linkedin"></i></a>
-      </div>
-      <a href="#" class="cta">Hire Me</a>
     </div>
   </header>
   <main>
-    <section class="hero">
-      <video autoplay loop muted>
-        <source src="./assets/content/video2.mp4" type="video/mp4">
-      </video>
-      <h1>Welcome to my Portfolio</h1>
-      <a href="www.googole.com" target="_blank" class="btn">Learn More</a>
-    </section>
+    <div class="conatiner">
+      <div class="hero">
+        <video autoplay loop muted>
+          <source src="./assets/content/video3.mp4" type="video/mp4">
+        </video>
+        <h1>Welcome to my Portfolio</h1>
+        <a href="www.googole.com" target="_blank" class="btn">Learn More</a>
+      </div>
+      <div class="about">
+        <h2>about me</h2>
+        <p>Hi, I'm Uday Veer Singh! I'm a Winnipeg based Web Designer & Front-end
+          Developer focused on creating clean, responsive web designs! and for me
+          learning is a continous process.</p>
+        <div class="contentContainer-1">
+
+          <div class="skillBar">
+            <h3>HTML5</h3>
+            <div class="skillBarContainer">
+              <div class="skillBarValue value-90"></div>
+            </div>
+          </div>
+
+          <div class="skillBar">
+            <h3>CSS3</h3>
+            <div class="skillBarContainer">
+              <div class="skillBarValue value-80"></div>
+            </div>
+          </div>
+
+          <div class="skillBar">
+            <h3>Bootstrap</h3>
+            <div class="skillBarContainer">
+              <div class="skillBarValue value-60"></div>
+            </div>
+          </div>
+
+          <div class="skillBar">
+            <h3>JavaScript</h3>
+            <div class="skillBarContainer">
+              <div class="skillBarValue value-70"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slider">
+        <div class="slide current">
+          <div class="content">
+            <h1>Slide One</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos adipisci molestias, quaerat reiciendis
+              placeat
+              sit.</p>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="content">
+            <h1>Slide Two</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos adipisci molestias, quaerat reiciendis
+              placeat
+              sit.</p>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="content">
+            <h1>Slide Three</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos adipisci molestias, quaerat reiciendis
+              placeat
+              sit.</p>
+          </div>
+        </div>
+        <div class="buttons">
+          <button id="prev"><i class="fa fa-arrow-left"></i></button>
+          <button id="next"><i class="fa fa-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+
+
   </main>
 
 </body>
